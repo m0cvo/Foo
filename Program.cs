@@ -7,24 +7,31 @@ namespace Foo
         
         static void Main(string[] args)
         {
+            WriteLine("Test: ");
+            float x = Test.Test1();
+            WriteLine(x);
+
             WriteLine("Shape calculator by N.Booth 2023 for Mogpie \n");
             WriteLine("Please enter choice: ");
             WriteLine("(1) Circle ");
             WriteLine("(2) Square ");
             WriteLine("(3) Triangle ");
             Write(": ");
-
+            
             string selection = ReadLine();
 
-            switch (selection) 
+            switch (selection)
             {
-                case "1": CirCalc();
+                case "1":
+                    CirCalc();
                     break;
 
-                case "2": SquareCalc();
+                case "2":
+                    SquareCalc();
                     break;
 
-                case "3": TriCalc();
+                case "3":
+                    TriCalc();
                     break;
 
                 default:
