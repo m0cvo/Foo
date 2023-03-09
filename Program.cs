@@ -3,15 +3,10 @@
 namespace Foo
 {
     internal class Program
-    {
-        
+    {   
         static void Main(string[] args)
         {
-            WriteLine("Test: ");
-            float x = Test.Test1();
-            WriteLine(x);
-            float y = Test.Test2();
-            WriteLine(y);
+            //ClassTest();
 
             WriteLine("Shape calculator by N.Booth 2023 for Mogpie \n");
             WriteLine("Please enter choice: ");
@@ -42,6 +37,15 @@ namespace Foo
             }
         } 
 
+        static void ClassTest()
+        {
+            WriteLine("Test: ");
+            float x = Test.Test1();
+            WriteLine(x);
+            float y = Test.Test2();
+            WriteLine(y);
+        }
+                
         static void CirCalc()
         {
             WriteLine("(1) Circumference of circle ");
