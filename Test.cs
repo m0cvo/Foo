@@ -13,17 +13,23 @@ namespace Foo
     /// </summary>
     internal class Test
     {
+    
         public static float Test1()
         {
             string D = "10";
-            string B = "10";
-
-            double A, C, P = 0;
+            double C;
 
             C = Circle.Circumference(D);
             Write("Circumference of circle with radius of 10mm: {C} ");
-
+            
             return (float)C;
+        }
+        public static float Test2()
+        {
+            string D = "10";
+            double A = Circle.Area(D);
+            Write("Area of a circle with radius of 10mm: {A}");
+            return (float)A;
         }
     }
 }

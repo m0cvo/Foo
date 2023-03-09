@@ -10,6 +10,8 @@ namespace Foo
             WriteLine("Test: ");
             float x = Test.Test1();
             WriteLine(x);
+            float y = Test.Test2();
+            WriteLine(y);
 
             WriteLine("Shape calculator by N.Booth 2023 for Mogpie \n");
             WriteLine("Please enter choice: ");
